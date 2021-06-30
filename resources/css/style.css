@@ -3,13 +3,12 @@ body {
     font-family: Verdana, sans-serif;
 }
 
-main {
+main, header {
     text-align: center;
 }
 
 h1, h2 {
     color: white;
-    text-align: center;
 }
 
 h1 {
@@ -22,14 +21,28 @@ h2 {
     font-size: 42px;
 }
 
-a:link {
+a {
     display: block;
-    color: aquamarine;
     font-size: 16px;
 }
 
+a:link {
+    color: aquamarine;
+}
+
+a:visited {
+    color: chartreuse;
+}
+
+a:hover {
+    color: khaki;
+}
+
+a:active {
+    color: darkkhaki;
+}
+
 p {
-    text-align: center;
     font-size: 21px;
     color: gray;
 }
